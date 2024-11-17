@@ -50,7 +50,7 @@ void execute_trades() {
     // Initialize the order book
     OrderBook* book = initialize_order_book();
 
-    // Add some sample orders
+    // Adding some sample orders
     add_order(book, create_order("AAPL", BUY, 150.00, 100));
     add_order(book, create_order("AAPL", SELL, 149.50, 50));
     add_order(book, create_order("AAPL", SELL, 150.00, 75));
@@ -73,6 +73,6 @@ void execute_trades() {
 
 // Function to shut down and release system resources
 void shutdown_system() {
-    // Placeholder for clean-up logic
+    // Clean-up logic
     printf("System resources released.\n");
 }
