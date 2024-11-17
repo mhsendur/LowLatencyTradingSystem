@@ -50,7 +50,7 @@ The project is entirely simulation-based and does not involve any real financial
 ### **Steps**
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/mhsendur/LowLatencyTradingSystem/edit/main/README.md)
    cd LowLatencyTradingSystem
    ```
 2. Compile the C program:
